@@ -1,0 +1,8 @@
+Cipó-Selvagem:
+- Imagem
+- Gênero: Humanóide, Planta
+- Poder: Natureza
+- Cores: Verde
+- Altura: 2m
+- Origem: Flors Verdance
+- Primeira Aparição: Clássico

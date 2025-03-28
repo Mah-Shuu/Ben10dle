@@ -1,0 +1,8 @@
+Quatro-Braços:
+- Imagem
+- Gênero: Humanóide
+- Poder: Físico
+- Cores: Vermelho
+- Altura: ≈ 3,70m
+- Origem: Khoros
+- Primeira Aparição: Clássico

@@ -1,0 +1,8 @@
+Ultra T:
+- Imagem
+- Gênero: Humanóide
+- Poder: Upgrade
+- Cores: Preto, Verde, Branco
+- Altura: 1,95m
+- Origem: Galvan B
+- Primeira Aparição: Clássico

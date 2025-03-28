@@ -1,0 +1,8 @@
+Insectóide:
+- Imagem
+- Gênero: Inseto
+- Poder: Toxina
+- Cores: Verde, Preto
+- Altura: 1,4m
+- Origem: Lepidopterra
+- Primeira Aparição: Classíco

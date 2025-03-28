@@ -1,0 +1,8 @@
+Chama:
+- Imagem
+- Gênero: Humanóide
+- Poder: Fogo
+- Cores: Vermelho, Amarelo
+- Altura: 2m
+- Origem: Pyros
+- Primeira Aparição: Clássico

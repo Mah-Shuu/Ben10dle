@@ -1,0 +1,8 @@
+Enormossauro
+- Imagem
+- Gênero: Humanóide, Dinossauro
+- Poder: Físico
+- Cores: Marrom, Bege
+- Altura: 3,60m
+- Origem: Terradino
+- Primeira Aparição: FA

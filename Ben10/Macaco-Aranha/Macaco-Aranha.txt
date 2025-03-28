@@ -1,0 +1,8 @@
+Macaco-Aranha
+- Imagem
+- Gênero: Macaco
+- Poder: Físico, Teia
+- Cores: Azul
+- Altura: 1,20m
+- Origem: Aranhascimmia
+- Primeira Aparição: FA

@@ -1,0 +1,8 @@
+Diamante:
+- Imagem
+- Gênero: Humanóide, Rochoso
+- Poder: Mineral
+- Cores: Verde
+- Altura: 1,93m
+- Origem: Petropia
+- Primeira Aparição: Clássico
