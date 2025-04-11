@@ -8,6 +8,11 @@ class Main(QMainWindow):
         self.ui = Ui_MainWindow()
         self.ui.setupUi(self)
 
+        self.ui.pushButton_omnitrix.clicked.connect(self.teste)
+
+    def teste(self):
+        print("foi")
+
 if __name__ == "__main__":
     app = QApplication(sys.argv)
     window = Main()
