@@ -1,9 +1,9 @@
 {
    "nome": "Alien-X",
-   "genero": ["humanoide","celestial"],
-   "poder": "onipotencia",
-   "cores": "preto",
+   "genero": ["Humanóide","Celestial"],
+   "poder": "Onipotência",
+   "cores": "Preto",
    "altura": 2.5,
-   "origem": "centro da criacao",
+   "origem": "Centro da Criação",
    "primeiraAparicao": "FA"
 }
