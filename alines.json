@@ -1,0 +1,138 @@
+[
+    {
+      "nome": "Alien-X",
+      "genero": ["Humanóide", "Celestial"],
+      "poder": ["Onipotência"],
+      "cores": ["Preto"],
+      "altura": 2.5,
+      "origem": "Centro da Criação",
+      "primeiraAparicao": "FA"
+    },
+    {
+      "nome": "Anfíbio",
+      "genero": ["Humanóide", "Água-viva"],
+      "poder": ["Eletricidade"],
+      "cores": ["Azul", "Branco"],
+      "altura": 1.85,
+      "origem": "Tesslos",
+      "primeiraAparicao": "SA"
+    },
+    {
+      "nome": "Chama",
+      "genero": ["Humanóide"],
+      "poder": ["Fogo"],
+      "cores": ["Azul", "Amarelo"],
+      "altura": 2.0,
+      "origem": "Pyros",
+      "primeiraAparicao": "Clássico"
+    },
+    {
+      "nome": "Cipó-Selvagem",
+      "genero": ["Humanóide", "Planta"],
+      "poder": ["Natureza"],
+      "cores": ["Verde"],
+      "altura": 2.0,
+      "origem": "Flors Verdance",
+      "primeiraAparicao": "Clássico"
+    },
+    {
+      "nome": "Cromático",
+      "genero": ["Humanóide", "Rochoso"],
+      "poder": ["Luz"],
+      "cores": ["Roxo", "Rosa"],
+      "altura": 2.2,
+      "origem": "Petropia",
+      "primeiraAparicao": "FA"
+    },
+    {
+      "nome": "Diamante",
+      "genero": ["Humanóide", "Rochoso"],
+      "poder": ["Mineral"],
+      "cores": ["Verde"],
+      "altura": 1.93,
+      "origem": "Petropia",
+      "primeiraAparicao": "Clássico"
+    },
+    {
+      "nome": "Enormossauro",
+      "genero": ["Humanóide", "Dinossauro"],
+      "poder": ["Força"],
+      "cores": ["Marrom", "Bege"],
+      "altura": 3.6,
+      "origem": "Terradino",
+      "primeiraAparicao": "FA"
+    },
+    {
+      "nome": "Fantasmático",
+      "genero": ["Fantasma"],
+      "poder": ["Faseamento", "Invisibilidade"],
+      "cores": ["Cinza"],
+      "altura": 1.85,
+      "origem": "Anur Phaetos",
+      "primeiraAparicao": "Clássico"
+    },
+    {
+      "nome": "Insectóide",
+      "genero": ["Inseto"],
+      "poder": ["Toxina"],
+      "cores": ["Verde", "Preto"],
+      "altura": 1.4,
+      "origem": "Tesslepido Terra",
+      "primeiraAparicao": "Clássico"
+    },
+    {
+      "nome": "Macaco-Aranha",
+      "genero": ["Macaco"],
+      "poder": ["Força", "Teia"],
+      "cores": ["Azul"],
+      "altura": 1.2,
+      "origem": "Aranhascimmia",
+      "primeiraAparicao": "FA"
+    },
+    {
+      "nome": "Massa Cinzenta",
+      "genero": ["Humanóide"],
+      "poder": ["Inteligência"],
+      "cores": ["Verde"],
+      "altura": 0.13,
+      "origem": "Galvan Prime",
+      "primeiraAparicao": "Clássico"
+    },
+    {
+      "nome": "Quatro-Braços",
+      "genero": ["Humanóide"],
+      "poder": ["Força"],
+      "cores": ["Vermelho"],
+      "altura": 3.7,
+      "origem": "Khoros",
+      "primeiraAparicao": "Clássico"
+    },
+    {
+      "nome": "Ultra T",
+      "genero": ["Humanóide"],
+      "poder": ["Upgrade"],
+      "cores": ["Verde", "Preto", "Branco"],
+      "altura": 1.95,
+      "origem": "Galvan B",
+      "primeiraAparicao": "Clássico"
+    },
+    {
+      "nome": "XLR8",
+      "genero": ["Humanóide"],
+      "poder": ["Velocidade"],
+      "cores": ["Preto", "Azul"],
+      "altura": 1.5,
+      "origem": "Kinet",
+      "primeiraAparicao": "Clássico"
+    },
+    {
+      "nome": "Personagem",
+      "genero": ["Tipo"],
+      "poder": ["Habilidade"],
+      "cores": ["Cor"],
+      "altura": 1.0,
+      "origem": "Planeta ou Episódio",
+      "primeiraAparicao": "TP"
+    }
+  ]
+  
