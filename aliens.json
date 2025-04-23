@@ -6,7 +6,8 @@
       "cores": ["Preto"],
       "altura": 2.5,
       "origem": "Centro da Criação",
-      "primeiraAparicao": "FA"
+      "primeiraAparicao": "FA",
+      "imagem": "Aliens/AlienX/AlienX.webp"
     },
     {
       "nome": "Anfíbio",
@@ -15,7 +16,8 @@
       "cores": ["Azul", "Branco"],
       "altura": 1.85,
       "origem": "Tesslos",
-      "primeiraAparicao": "SA"
+      "primeiraAparicao": "SA",
+      "imagem": "Aliens/Anfibio/Anfibio.webp"
     },
     {
       "nome": "Chama",
@@ -24,7 +26,8 @@
       "cores": ["Azul", "Amarelo"],
       "altura": 2.0,
       "origem": "Pyros",
-      "primeiraAparicao": "Clássico"
+      "primeiraAparicao": "Clássico",
+      "imagem": "Aliens/Chama/Chama.webp"
     },
     {
       "nome": "Cipó-Selvagem",
@@ -33,7 +36,8 @@
       "cores": ["Verde"],
       "altura": 2.0,
       "origem": "Flors Verdance",
-      "primeiraAparicao": "Clássico"
+      "primeiraAparicao": "Clássico",
+      "imagem": "Aliens/CipoSelvagem/Cipo.webp"
     },
     {
       "nome": "Cromático",
@@ -42,7 +46,8 @@
       "cores": ["Roxo", "Rosa"],
       "altura": 2.2,
       "origem": "Petropia",
-      "primeiraAparicao": "FA"
+      "primeiraAparicao": "FA",
+      "imagem": "Aliens/AlienX/AlienX.webp"
     },
     {
       "nome": "Diamante",
@@ -51,7 +56,8 @@
       "cores": ["Verde"],
       "altura": 1.93,
       "origem": "Petropia",
-      "primeiraAparicao": "Clássico"
+      "primeiraAparicao": "Clássico",
+      "imagem": "Aliens/AlienX/AlienX.webp"
     },
     {
       "nome": "Enormossauro",
@@ -60,7 +66,8 @@
       "cores": ["Marrom", "Bege"],
       "altura": 3.6,
       "origem": "Terradino",
-      "primeiraAparicao": "FA"
+      "primeiraAparicao": "FA",
+      "imagem": "Aliens/AlienX/AlienX.webp"
     },
     {
       "nome": "Fantasmático",
@@ -69,7 +76,8 @@
       "cores": ["Cinza"],
       "altura": 1.85,
       "origem": "Anur Phaetos",
-      "primeiraAparicao": "Clássico"
+      "primeiraAparicao": "Clássico",
+      "imagem": "Aliens/AlienX/AlienX.webp"
     },
     {
       "nome": "Insectóide",
@@ -78,7 +86,8 @@
       "cores": ["Verde", "Preto"],
       "altura": 1.4,
       "origem": "Tesslepido Terra",
-      "primeiraAparicao": "Clássico"
+      "primeiraAparicao": "Clássico",
+      "imagem": "Aliens/AlienX/AlienX.webp"
     },
     {
       "nome": "Macaco-Aranha",
@@ -87,7 +96,8 @@
       "cores": ["Azul"],
       "altura": 1.2,
       "origem": "Aranhascimmia",
-      "primeiraAparicao": "FA"
+      "primeiraAparicao": "FA",
+      "imagem": "Aliens/AlienX/AlienX.webp"
     },
     {
       "nome": "Massa Cinzenta",
@@ -96,7 +106,8 @@
       "cores": ["Verde"],
       "altura": 0.13,
       "origem": "Galvan Prime",
-      "primeiraAparicao": "Clássico"
+      "primeiraAparicao": "Clássico",
+      "imagem": "Aliens/AlienX/AlienX.webp"
     },
     {
       "nome": "Quatro-Braços",
@@ -105,7 +116,8 @@
       "cores": ["Vermelho"],
       "altura": 3.7,
       "origem": "Khoros",
-      "primeiraAparicao": "Clássico"
+      "primeiraAparicao": "Clássico",
+      "imagem": "Aliens/AlienX/AlienX.webp"
     },
     {
       "nome": "Ultra T",
@@ -114,7 +126,8 @@
       "cores": ["Verde", "Preto", "Branco"],
       "altura": 1.95,
       "origem": "Galvan B",
-      "primeiraAparicao": "Clássico"
+      "primeiraAparicao": "Clássico",
+      "imagem": "Aliens/AlienX/AlienX.webp"
     },
     {
       "nome": "XLR8",
@@ -123,16 +136,9 @@
       "cores": ["Preto", "Azul"],
       "altura": 1.5,
       "origem": "Kinet",
-      "primeiraAparicao": "Clássico"
-    },
-    {
-      "nome": "Personagem",
-      "genero": ["Tipo"],
-      "poder": ["Habilidade"],
-      "cores": ["Cor"],
-      "altura": 1.0,
-      "origem": "Planeta ou Episódio",
-      "primeiraAparicao": "TP"
+      "primeiraAparicao": "Clássico",
+      "imagem": "Aliens/AlienX/AlienX.webp"
     }
+
   ]
   

@@ -11,7 +11,7 @@ class Main(QMainWindow):
         self.ui = Ui_MainWindow()
         self.ui.setupUi(self)
         self.setWindowTitle("Ben10dle")
-        self.aliensJson = "alines.json"
+        self.aliensJson = "aliens.json"
         self.carregarAliens()
         self.alienAlvo = self.definirAlien()
         self.nomeAliens = self.getNomes()
@@ -20,7 +20,7 @@ class Main(QMainWindow):
         self.completer.setCaseSensitivity(False)
         self.ui.lineEdit.setCompleter(self.completer)
 
-        self.ui.pushButton_omnitrix.clicked.connect(self.testeBotao)
+        self.ui.pushButton_omnitrix.clicked.connect(self.advinhar)
 
     def carregarAliens(self):
         try:
@@ -40,7 +40,7 @@ class Main(QMainWindow):
         return listaNomes
 
 
-    def testeBotao(self):
+    def advinhar(self):
         nomeInput = self.ui.lineEdit.text().strip()
         print(self.alienAlvo)
 
@@ -53,23 +53,26 @@ class Main(QMainWindow):
                     altura = i['altura']
                     origem = i['origem']
                     primeiraAparicao = i['primeiraAparicao']
+                    imagemAlien = i['imagem']
             
-            self.ui.label_Genero.setText(f"{', '.join(genero)}")
-            self.ui.label_Poder.setText(f"{', '.join(poder)}")
-            self.ui.label_Cores.setText(f"{', '.join(cores)}")
+            pixmap = QPixmap(imagemAlien)
+            self.ui.label_Alien.setPixmap(pixmap)
+            self.ui.label_Genero_text.setText(f"{', '.join(genero)}")
+            self.ui.label_Poder_text.setText(f"{', '.join(poder)}")
+            self.ui.label_Cores_text.setText(f"{', '.join(cores)}")
 
-            self.ui.label_Altura.setText(f"{altura}")
+            self.ui.label_Altura_text.setText(f"{altura}")
             if altura > self.alienAlvo['altura']:
 
                 print("acima")
-                caminhoImagem = "testeB.png"
+                caminhoImagem = "assets/setaBaixo.png"
                 pixmap = QPixmap(caminhoImagem)
                 self.ui.label_Altura.setPixmap(pixmap)
 
             elif altura < self.alienAlvo['altura']:
 
                 print("abaixo")
-                caminhoImagem = "cima.png"
+                caminhoImagem = "assets/setaCima.png"
                 pixmap = QPixmap(caminhoImagem)
                 self.ui.label_Altura.setPixmap(pixmap)
 
@@ -77,8 +80,8 @@ class Main(QMainWindow):
                 print("acertou")
 
             
-            self.ui.label_Origem.setText(f"{origem}")
-            self.ui.label_PA.setText(f"{primeiraAparicao}")
+            self.ui.label_Origem_text.setText(f"{origem}")
+            self.ui.label_PA_text.setText(f"{primeiraAparicao}")
 
 
             if nomeInput == self.alienAlvo['nome']:
