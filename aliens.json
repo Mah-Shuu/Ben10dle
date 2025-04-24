@@ -47,7 +47,7 @@
       "altura": 2.2,
       "origem": "Petropia",
       "primeiraAparicao": "FA",
-      "imagem": "Aliens/AlienX/AlienX.webp"
+      "imagem": "Aliens/Cromatico/Cromatico.webp"
     },
     {
       "nome": "Diamante",
@@ -57,7 +57,7 @@
       "altura": 1.93,
       "origem": "Petropia",
       "primeiraAparicao": "Clássico",
-      "imagem": "Aliens/AlienX/AlienX.webp"
+      "imagem": "Aliens/Diamante/Diamante.webp"
     },
     {
       "nome": "Enormossauro",
@@ -67,7 +67,7 @@
       "altura": 3.6,
       "origem": "Terradino",
       "primeiraAparicao": "FA",
-      "imagem": "Aliens/AlienX/AlienX.webp"
+      "imagem": "Aliens/Enormossauro/Enormossauro.webp"
     },
     {
       "nome": "Fantasmático",
@@ -77,7 +77,7 @@
       "altura": 1.85,
       "origem": "Anur Phaetos",
       "primeiraAparicao": "Clássico",
-      "imagem": "Aliens/AlienX/AlienX.webp"
+      "imagem": "Aliens/Fantasmatico/Fantasmatico.webp"
     },
     {
       "nome": "Insectóide",
@@ -87,7 +87,7 @@
       "altura": 1.4,
       "origem": "Tesslepido Terra",
       "primeiraAparicao": "Clássico",
-      "imagem": "Aliens/AlienX/AlienX.webp"
+      "imagem": "Aliens/Insectoide/Insectoide.webp"
     },
     {
       "nome": "Macaco-Aranha",
@@ -97,7 +97,7 @@
       "altura": 1.2,
       "origem": "Aranhascimmia",
       "primeiraAparicao": "FA",
-      "imagem": "Aliens/AlienX/AlienX.webp"
+      "imagem": "Aliens/MacacoAranha/MacacoSpider.webp"
     },
     {
       "nome": "Massa Cinzenta",
@@ -107,7 +107,7 @@
       "altura": 0.13,
       "origem": "Galvan Prime",
       "primeiraAparicao": "Clássico",
-      "imagem": "Aliens/AlienX/AlienX.webp"
+      "imagem": "Aliens/MassaCinzenta/MassaCinzenta.webp"
     },
     {
       "nome": "Quatro-Braços",
@@ -117,7 +117,7 @@
       "altura": 3.7,
       "origem": "Khoros",
       "primeiraAparicao": "Clássico",
-      "imagem": "Aliens/AlienX/AlienX.webp"
+      "imagem": "Aliens/QuatroBracos/quatrobracos.webp"
     },
     {
       "nome": "Ultra T",
@@ -127,7 +127,7 @@
       "altura": 1.95,
       "origem": "Galvan B",
       "primeiraAparicao": "Clássico",
-      "imagem": "Aliens/AlienX/AlienX.webp"
+      "imagem": "Aliens/UltraT/UltraT.webp"
     },
     {
       "nome": "XLR8",
@@ -137,7 +137,7 @@
       "altura": 1.5,
       "origem": "Kinet",
       "primeiraAparicao": "Clássico",
-      "imagem": "Aliens/AlienX/AlienX.webp"
+      "imagem": "Aliens/XLR8/XLR8.webp"
     }
 
   ]
