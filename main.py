@@ -43,6 +43,17 @@ class Main(QMainWindow):
     def advinhar(self):
         nomeInput = self.ui.lineEdit.text().strip()
         print(self.alienAlvo)
+        # cores do certo e errado
+        cor_certo ="""
+        QLabel{
+        background-color: #78E750;
+        border: 4px solid #000000;
+        }"""
+        cor_errado ="""
+        QLabel{
+        background-color: #FF2D2D;
+        border: 4px solid #000000;
+        }"""
 
         if nomeInput in self.nomeAliens:
             for i in self.aliens:
@@ -60,14 +71,17 @@ class Main(QMainWindow):
             self.ui.label_Genero_text.setText(f"{', '.join(genero)}")
             self.ui.label_Poder_text.setText(f"{', '.join(poder)}")
             self.ui.label_Cores_text.setText(f"{', '.join(cores)}")
-
             self.ui.label_Altura_text.setText(f"{altura}")
+            
+            
+            
             if altura > self.alienAlvo['altura']:
 
                 print("acima")
                 caminhoImagem = "assets/setaBaixo.png"
                 pixmap = QPixmap(caminhoImagem)
                 self.ui.label_Altura.setPixmap(pixmap)
+                self.ui.label_Altura.setStyleSheet(cor_errado)
 
             elif altura < self.alienAlvo['altura']:
 
@@ -75,15 +89,22 @@ class Main(QMainWindow):
                 caminhoImagem = "assets/setaCima.png"
                 pixmap = QPixmap(caminhoImagem)
                 self.ui.label_Altura.setPixmap(pixmap)
+                self.ui.label_Altura.setStyleSheet(cor_errado)
 
-            else:  
-                print("acertou")
-
+            else:
             
-            self.ui.label_Origem_text.setText(f"{origem}")
-            self.ui.label_PA_text.setText(f"{primeiraAparicao}")
-
-
+                self.ui.label_Origem_text.setText(f"{origem}")
+                self.ui.label_PA_text.setText(f"{primeiraAparicao}")
+                self.ui.label_Genero.setStyleSheet(cor_certo)
+                self.ui.label_Poder.setStyleSheet(cor_certo)
+                self.ui.label_Cores.setStyleSheet(cor_certo)
+                self.ui.label_Altura.setStyleSheet(cor_certo)
+                self.ui.label_Origem.setStyleSheet(cor_certo)
+                self.ui.label_PA.setStyleSheet(cor_certo)
+                pixmap = QPixmap(None)
+                self.ui.label_Altura.setPixmap(pixmap)
+            
+            
             if nomeInput == self.alienAlvo['nome']:
                 print("foi")
             else:
