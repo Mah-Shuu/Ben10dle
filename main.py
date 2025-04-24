@@ -82,6 +82,10 @@ class Main(QMainWindow):
             
             self.ui.label_Origem_text.setText(f"{origem}")
             self.ui.label_PA_text.setText(f"{primeiraAparicao}")
+                self.ui.label_Altura.setStyleSheet("QLabel{\n"
+                                                    "    background-color: #FF2D2D\n"
+                                                    "    border: 4px solid #000000;\n"
+                                                    "}")
 
 
             if nomeInput == self.alienAlvo['nome']:
