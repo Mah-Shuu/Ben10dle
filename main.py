@@ -82,8 +82,6 @@ class Main(QMainWindow):
 
             if nomeInput == self.alienAlvo['nome']:
 
-                print("foi")
-
                 self.ui.label_Genero.setStyleSheet(cor_certo)
                 self.ui.label_Poder.setStyleSheet(cor_certo)
                 self.ui.label_Cores.setStyleSheet(cor_certo)
@@ -97,7 +95,7 @@ class Main(QMainWindow):
                 
                 poderVerific = False
                 coresVerific = False
-                print("Nao foi")
+                generoVerific = False
 
                 if altura > self.alienAlvo['altura']:
                     caminhoImagem = "assets/setaBaixo.png"
@@ -116,6 +114,7 @@ class Main(QMainWindow):
                     pixmap = QPixmap(None)
                     self.ui.label_Altura.setPixmap(pixmap)
 
+                # Poder
 
                 for poderAlien in poder:
                     if poderVerific == False:
@@ -125,19 +124,32 @@ class Main(QMainWindow):
                         break
 
                 if len(self.alienAlvo['poder']) > 1:
-                    print("poder maior q 1")
-                    if poderVerific == False:
-                        self.ui.label_Poder.setStyleSheet(cor_errado)
+                    if len(poder) > 1:
+                        if poderVerific == False:
+                            self.ui.label_Poder.setStyleSheet(cor_errado)
+                        else:
+                            self.ui.label_Poder.setStyleSheet(cor_parcial)
                     else:
-                        self.ui.label_Poder.setStyleSheet(cor_parcial)
+                        if poderVerific == False:
+                            self.ui.label_Poder.setStyleSheet(cor_errado)
+                        else:
+                            self.ui.label_Poder.setStyleSheet(cor_parcial)
+
                 else:
-                    print("poder menor q 1")
-                    if poderVerific == False:
-                        self.ui.label_Poder.setStyleSheet(cor_errado)
+                    if len(poder) > 1:
+                        if poderVerific == False:
+                            self.ui.label_Poder.setStyleSheet(cor_errado)
+                        else:
+                            self.ui.label_Poder.setStyleSheet(cor_parcial)
                     else:
-                        self.ui.label_Poder.setStyleSheet(cor_certo)
+                        if poderVerific == False:
+                            self.ui.label_Poder.setStyleSheet(cor_errado)
+                        else:
+                            self.ui.label_Poder.setStyleSheet(cor_certo)
 
                 poderVerific = False
+
+                ## Cores
 
                 for corAlien in cores:
                     if coresVerific == False:
@@ -147,22 +159,74 @@ class Main(QMainWindow):
                         break
 
                 if len(self.alienAlvo['cores']) > 1:
-                    print("cores maior q 1")
-                    if coresVerific == False:
-                        self.ui.label_Cores.setStyleSheet(cor_errado)
+                    if len(cores) > 1:
+                        if coresVerific == False:
+                            self.ui.label_Cores.setStyleSheet(cor_errado)
+                        else:
+                            self.ui.label_Cores.setStyleSheet(cor_parcial)
                     else:
-                        self.ui.label_Cores.setStyleSheet(cor_parcial)
+                        if coresVerific == False:
+                            self.ui.label_Cores.setStyleSheet(cor_errado)
+                        else:
+                            self.ui.label_Cores.setStyleSheet(cor_parcial)
                 else:
-                    print("cores menor q 1")
-                    if coresVerific == False:
-                        self.ui.label_Cores.setStyleSheet(cor_errado)
+                    if len(cores) > 1:
+                        if coresVerific == False:
+                            self.ui.label_Cores.setStyleSheet(cor_errado)
+                        else:
+                            self.ui.label_Cores.setStyleSheet(cor_parcial)
                     else:
-                        self.ui.label_Cores.setStyleSheet(cor_certo)
+                        if coresVerific == False:
+                            self.ui.label_Cores.setStyleSheet(cor_errado)
+                        else:
+                            self.ui.label_Cores.setStyleSheet(cor_certo)
 
                 coresVerific = False
 
+                # Genero
 
-            
+                for generoAlien in genero:
+                    if generoVerific == False:
+                        if generoAlien in self.alienAlvo['genero']:
+                            generoVerific = True
+                    else:
+                        break
+
+                if len(self.alienAlvo['genero']) > 1:
+                    if len(genero) > 1:
+                        if generoVerific == False:
+                            self.ui.label_Genero.setStyleSheet(cor_errado)
+                        else:
+                            self.ui.label_Genero.setStyleSheet(cor_parcial)
+                    else:
+                        if generoVerific == False:
+                            self.ui.label_Genero.setStyleSheet(cor_errado)
+                        else:
+                            self.ui.label_Genero.setStyleSheet(cor_parcial)
+                else:
+                    if len(genero) > 1:
+                        if generoVerific == False:
+                            self.ui.label_Genero.setStyleSheet(cor_errado)
+                        else:
+                            self.ui.label_Genero.setStyleSheet(cor_parcial)
+                    else:
+                        if generoVerific == False:
+                            self.ui.label_Genero.setStyleSheet(cor_errado)
+                        else:
+                            self.ui.label_Genero.setStyleSheet(cor_certo)
+
+                generoVerific = False
+
+                if origem == self.alienAlvo['origem']:
+                    self.ui.label_Origem.setStyleSheet(cor_certo)
+                else:
+                    self.ui.label_Origem.setStyleSheet(cor_errado)
+
+                if primeiraAparicao == self.alienAlvo['primeiraAparicao']:
+                    self.ui.label_PA.setStyleSheet(cor_certo)
+                else:
+                    self.ui.label_PA.setStyleSheet(cor_errado)
+
         else:
             QMessageBox.warning(self, "Erro", "Nome inválido")
 
