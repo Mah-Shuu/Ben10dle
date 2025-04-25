@@ -71,7 +71,7 @@ class Main(QMainWindow):
             self.ui.label_Genero_text.setText(f"{', '.join(genero)}")
             self.ui.label_Poder_text.setText(f"{', '.join(poder)}")
             self.ui.label_Cores_text.setText(f"{', '.join(cores)}")
-            self.ui.label_Altura_text.setText(f"{altura}")
+            self.ui.label_Altura_text.setText(f"{altura}m")
             
             
             
