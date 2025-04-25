@@ -38,8 +38,8 @@ class Main(QMainWindow):
             nome = i['nome']
             listaNomes.append(nome)
         return listaNomes
-
-
+        
+    
     def advinhar(self):
         nomeInput = self.ui.lineEdit.text().strip()
         print(self.alienAlvo)
@@ -60,39 +60,10 @@ class Main(QMainWindow):
         border: 4px solid #000000;
         }"""
 
-        if nomeInput in self.nomeAliens:
-            for i in self.aliens:
-                if nomeInput == i['nome']:
-                    genero = i['genero']
-                    poder = i['poder']
-                    cores = i['cores']
-                    altura = i['altura']
-                    origem = i['origem']
-                    primeiraAparicao = i['primeiraAparicao']
-                    imagemAlien = i['imagem']
-            
-            pixmap = QPixmap(imagemAlien)
-            self.ui.label_Alien.setPixmap(pixmap)
-            self.ui.label_Genero_text.setText(f"{', '.join(genero)}")
-            self.ui.label_Poder_text.setText(f"{', '.join(poder)}")
-            self.ui.label_Cores_text.setText(f"{', '.join(cores)}")
-            self.ui.label_Altura_text.setText(f"{altura}m")
-            self.ui.label_Origem_text.setText(f"{origem}")
-            self.ui.label_PA_text.setText(f"{primeiraAparicao}")
-
-            if nomeInput == self.alienAlvo['nome']:
-
-                self.ui.label_Genero.setStyleSheet(cor_certo)
-                self.ui.label_Poder.setStyleSheet(cor_certo)
-                self.ui.label_Cores.setStyleSheet(cor_certo)
-                self.ui.label_Altura.setStyleSheet(cor_certo)
-                self.ui.label_Origem.setStyleSheet(cor_certo)
-                self.ui.label_PA.setStyleSheet(cor_certo)
-                pixmap = QPixmap(None)
-                self.ui.label_Altura.setPixmap(pixmap)
-
+        self.certo_errado(nomeInput,cor_certo)
+        
+        """
             else:
-                
                 poderVerific = False
                 coresVerific = False
                 generoVerific = False
@@ -228,7 +199,43 @@ class Main(QMainWindow):
                     self.ui.label_PA.setStyleSheet(cor_errado)
 
         else:
-            QMessageBox.warning(self, "Erro", "Nome inválido")
+            QMessageBox.warning(self, "Erro", "Nome inválido")"""
+
+    def certo_errado(self,nome,cor):
+         if nome in self.nomeAliens:
+            for i in self.aliens:
+                if nome == i['nome']:
+                    genero = i['genero']
+                    poder = i['poder']
+                    cores = i['cores']
+                    altura = i['altura']
+                    origem = i['origem']
+                    primeiraAparicao = i['primeiraAparicao']
+                    imagemAlien = i['imagem']
+            
+            pixmap = QPixmap(imagemAlien)
+            self.ui.label_Alien.setPixmap(pixmap)
+            self.ui.label_Genero_text.setText(f"{', '.join(genero)}")
+            self.ui.label_Poder_text.setText(f"{', '.join(poder)}")
+            self.ui.label_Cores_text.setText(f"{', '.join(cores)}")
+            self.ui.label_Altura_text.setText(f"{altura}m")
+            self.ui.label_Origem_text.setText(f"{origem}")
+            self.ui.label_PA_text.setText(f"{primeiraAparicao}")
+
+            if nome == self.alienAlvo['nome']:
+
+                self.ui.label_Genero.setStyleSheet(cor)
+                self.ui.label_Poder.setStyleSheet(cor)
+                self.ui.label_Cores.setStyleSheet(cor)
+                self.ui.label_Altura.setStyleSheet(cor)
+                self.ui.label_Origem.setStyleSheet(cor)
+                self.ui.label_PA.setStyleSheet(cor)
+                pixmap = QPixmap(None)
+                self.ui.label_Altura.setPixmap(pixmap)
+            else:
+                self.verificaraltura()
+
+    def verificaaltura(self.)
 
 if __name__ == "__main__":
     app = QApplication(sys.argv)
