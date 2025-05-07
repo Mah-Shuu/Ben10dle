@@ -147,10 +147,10 @@
    <widget class="QLabel" name="label_7">
     <property name="geometry">
      <rect>
-      <x>440</x>
-      <y>653</y>
-      <width>451</width>
-      <height>101</height>
+      <x>430</x>
+      <y>643</y>
+      <width>481</width>
+      <height>111</height>
      </rect>
     </property>
     <property name="styleSheet">
@@ -272,15 +272,15 @@ color: white;
     <property name="geometry">
      <rect>
       <x>620</x>
-      <y>663</y>
-      <width>91</width>
-      <height>16</height>
+      <y>652</y>
+      <width>100</width>
+      <height>23</height>
      </rect>
     </property>
     <property name="font">
      <font>
       <family>Century Gothic</family>
-      <pointsize>12</pointsize>
+      <pointsize>14</pointsize>
       <weight>75</weight>
       <bold>true</bold>
      </font>
@@ -295,10 +295,10 @@ color: white;
    <widget class="QWidget" name="verticalLayoutWidget">
     <property name="geometry">
      <rect>
-      <x>457</x>
-      <y>680</y>
-      <width>182</width>
-      <height>62</height>
+      <x>445</x>
+      <y>677</y>
+      <width>189</width>
+      <height>65</height>
      </rect>
     </property>
     <layout class="QVBoxLayout" name="verticalLayout">
@@ -307,7 +307,9 @@ color: white;
        <property name="font">
         <font>
          <family>Century Gothic</family>
-         <pointsize>8</pointsize>
+         <pointsize>10</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
         </font>
        </property>
        <property name="text">
@@ -320,7 +322,9 @@ color: white;
        <property name="font">
         <font>
          <family>Century Gothic</family>
-         <pointsize>8</pointsize>
+         <pointsize>10</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
         </font>
        </property>
        <property name="text">
@@ -333,7 +337,9 @@ color: white;
        <property name="font">
         <font>
          <family>Century Gothic</family>
-         <pointsize>8</pointsize>
+         <pointsize>10</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
         </font>
        </property>
        <property name="text">
@@ -346,7 +352,7 @@ color: white;
    <widget class="QLabel" name="label_15">
     <property name="geometry">
      <rect>
-      <x>636</x>
+      <x>648</x>
       <y>701</y>
       <width>41</width>
       <height>41</height>
@@ -365,7 +371,7 @@ color: white;
    <widget class="QLabel" name="label_16">
     <property name="geometry">
      <rect>
-      <x>686</x>
+      <x>700</x>
       <y>701</y>
       <width>41</width>
       <height>41</height>
@@ -384,7 +390,7 @@ color: white;
    <widget class="QLabel" name="label_17">
     <property name="geometry">
      <rect>
-      <x>736</x>
+      <x>752</x>
       <y>701</y>
       <width>41</width>
       <height>41</height>
@@ -403,7 +409,7 @@ color: white;
    <widget class="QLabel" name="label_18">
     <property name="geometry">
      <rect>
-      <x>786</x>
+      <x>804</x>
       <y>701</y>
       <width>41</width>
       <height>41</height>
@@ -428,7 +434,7 @@ color: white;
    <widget class="QLabel" name="label_19">
     <property name="geometry">
      <rect>
-      <x>836</x>
+      <x>856</x>
       <y>701</y>
       <width>41</width>
       <height>41</height>
@@ -453,16 +459,16 @@ color: white;
    <widget class="QLabel" name="label_20">
     <property name="geometry">
      <rect>
-      <x>636</x>
-      <y>685</y>
-      <width>40</width>
-      <height>16</height>
+      <x>643</x>
+      <y>683</y>
+      <width>50</width>
+      <height>17</height>
      </rect>
     </property>
     <property name="font">
      <font>
       <family>Century Gothic</family>
-      <pointsize>8</pointsize>
+      <pointsize>10</pointsize>
      </font>
     </property>
     <property name="text">
@@ -475,16 +481,16 @@ color: white;
    <widget class="QLabel" name="label_21">
     <property name="geometry">
      <rect>
-      <x>687</x>
-      <y>685</y>
-      <width>40</width>
-      <height>16</height>
+      <x>698</x>
+      <y>683</y>
+      <width>44</width>
+      <height>17</height>
      </rect>
     </property>
     <property name="font">
      <font>
       <family>Century Gothic</family>
-      <pointsize>8</pointsize>
+      <pointsize>10</pointsize>
      </font>
     </property>
     <property name="text">
@@ -497,16 +503,16 @@ color: white;
    <widget class="QLabel" name="label_22">
     <property name="geometry">
      <rect>
-      <x>736</x>
-      <y>685</y>
-      <width>40</width>
-      <height>16</height>
+      <x>751</x>
+      <y>683</y>
+      <width>42</width>
+      <height>17</height>
      </rect>
     </property>
     <property name="font">
      <font>
       <family>Century Gothic</family>
-      <pointsize>8</pointsize>
+      <pointsize>10</pointsize>
      </font>
     </property>
     <property name="text">
@@ -519,16 +525,16 @@ color: white;
    <widget class="QLabel" name="label_23">
     <property name="geometry">
      <rect>
-      <x>786</x>
-      <y>685</y>
+      <x>804</x>
+      <y>683</y>
       <width>40</width>
-      <height>16</height>
+      <height>17</height>
      </rect>
     </property>
     <property name="font">
      <font>
       <family>Century Gothic</family>
-      <pointsize>8</pointsize>
+      <pointsize>10</pointsize>
      </font>
     </property>
     <property name="text">
@@ -541,16 +547,16 @@ color: white;
    <widget class="QLabel" name="label_24">
     <property name="geometry">
      <rect>
-      <x>836</x>
-      <y>685</y>
-      <width>40</width>
-      <height>16</height>
+      <x>856</x>
+      <y>683</y>
+      <width>41</width>
+      <height>17</height>
      </rect>
     </property>
     <property name="font">
      <font>
       <family>Century Gothic</family>
-      <pointsize>8</pointsize>
+      <pointsize>10</pointsize>
      </font>
     </property>
     <property name="text">
@@ -619,7 +625,7 @@ border-radius: 35px;
     <property name="font">
      <font>
       <family>Century Gothic</family>
-      <pointsize>9</pointsize>
+      <pointsize>10</pointsize>
       <weight>75</weight>
       <bold>true</bold>
      </font>
@@ -655,7 +661,7 @@ border-radius: 35px;
     <property name="font">
      <font>
       <family>Century Gothic</family>
-      <pointsize>9</pointsize>
+      <pointsize>10</pointsize>
       <weight>75</weight>
       <bold>true</bold>
      </font>
@@ -763,7 +769,7 @@ border-radius: 35px;
     <property name="font">
      <font>
       <family>Century Gothic</family>
-      <pointsize>9</pointsize>
+      <pointsize>14</pointsize>
       <weight>75</weight>
       <bold>true</bold>
      </font>
@@ -799,7 +805,7 @@ border-radius: 35px;
     <property name="font">
      <font>
       <family>Century Gothic</family>
-      <pointsize>9</pointsize>
+      <pointsize>10</pointsize>
       <weight>75</weight>
       <bold>true</bold>
      </font>
