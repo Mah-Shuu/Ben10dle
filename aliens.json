@@ -4,27 +4,97 @@
       "genero": ["Humanóide", "Celestial"],
       "poder": ["Onipotência"],
       "cores": ["Preto"],
-      "altura": 2.5,
+      "altura": 1.83,
       "origem": "Centro da Criação",
       "primeiraAparicao": "FA",
       "imagem": "Aliens/AlienX/AlienX.webp"
     },
     {
       "nome": "Anfíbio",
-      "genero": ["Humanóide", "Água-viva"],
+      "genero": ["Humanóide", "Aquático"],
       "poder": ["Eletricidade"],
       "cores": ["Azul", "Branco"],
-      "altura": 1.85,
+      "altura": 1.83,
       "origem": "Tesslos",
       "primeiraAparicao": "SA",
       "imagem": "Aliens/Anfibio/Anfibio.webp"
+    },
+    {
+      "nome": "Aquático",
+      "genero": ["Humanóide", "Aquático"],
+      "poder": ["Afinidade Aquática"],
+      "cores": ["Verde", "Branco"],
+      "altura": 1.93,
+      "origem": "Piscciss",
+      "primeiraAparicao": "Clássico",
+      "imagem": "Aliens/Aquatico/Aquatico.webp"
+    },
+    {
+      "nome": "Armatu",
+      "genero": ["Humanóide", "Robótico"],
+      "poder": ["Escavação"],
+      "cores": ["Amarelo", "Preto", "Cinza"],
+      "altura": 3.05,
+      "origem": "Poiana Lüncas",
+      "primeiraAparicao": "SA",
+      "imagem": "Aliens/Armatu/Armatu.webp"
+    },
+    {
+      "nome": "Arraia-à-Jato",
+      "genero": ["Humanóide", "Alado"],
+      "poder": ["Laser", "Voo"],
+      "cores": ["Amarelo", "Vermelho", "Preto"],
+      "altura": 1.98,
+      "origem": "Aeropela",
+      "primeiraAparicao": "FA",
+      "imagem": "Aliens/Arraia-a-Jato/Arraia-a-Jato.webp"
+    },
+    {
+      "nome": "Atômico",
+      "genero": ["Humanóide", "Robótico"],
+      "poder": ["Radiação", "Voo"],
+      "cores": ["Branco", "Verde", "Preto"],
+      "altura": 2.36,
+      "origem": "Desconhecido",
+      "primeiraAparicao": "OV",
+      "imagem": "Aliens/Atomico/Atomico.webp"
+    },
+    {
+      "nome": "Bala de Canhão",
+      "genero": ["Amorfo"],
+      "poder": ["Tornar-se esfera"],
+      "cores": ["Branco", "Amarelo", "Preto"],
+      "altura": 2.0,
+      "origem": "Arburia",
+      "primeiraAparicao": "Clássico",
+      "imagem": "Aliens/Bala-de-Canhao/Bala-de-Canhao.webp"
+    },
+    {
+      "nome": "Besta",
+      "genero": ["Quadrúpede"],
+      "poder": ["Sentidos sobre-humanos"],
+      "cores": ["Laranja"],
+      "altura": 1.4,
+      "origem": "Vulpin",
+      "primeiraAparicao": "Clássico",
+      "imagem": "Aliens/Besta/Besta.webp"
+    },
+    {
+      "nome": "Bloxx",
+      "genero": ["Amorfo"],
+      "poder": ["Metamorfose"],
+      "cores": ["Vermelho", "Azul", "Amarelo"],
+      "altura": 1.62,
+      "origem": "Polyominus",
+      "primeiraAparicao": "OV",
+      "imagem": "Aliens/Bloxx/Bloxx.webp"
     },
     {
       "nome": "Chama",
       "genero": ["Humanóide"],
       "poder": ["Fogo"],
       "cores": ["Vermelho", "Amarelo"],
-      "altura": 2.0,
+      "altura": 1.83,
       "origem": "Pyros",
       "primeiraAparicao": "Clássico",
       "imagem": "Aliens/Chama/Chama.webp"
@@ -34,7 +104,7 @@
       "genero": ["Humanóide", "Planta"],
       "poder": ["Natureza"],
       "cores": ["Verde"],
-      "altura": 2.0,
+      "altura": 2.2,
       "origem": "Flors Verdance",
       "primeiraAparicao": "Clássico",
       "imagem": "Aliens/CipoSelvagem/Cipo.webp"
@@ -44,7 +114,7 @@
       "genero": ["Humanóide", "Rochoso"],
       "poder": ["Luz"],
       "cores": ["Roxo", "Rosa"],
-      "altura": 2.2,
+      "altura": 2.28,
       "origem": "Petropia",
       "primeiraAparicao": "FA",
       "imagem": "Aliens/Cromatico/Cromatico.webp"
@@ -54,17 +124,27 @@
       "genero": ["Humanóide", "Rochoso"],
       "poder": ["Mineral"],
       "cores": ["Verde"],
-      "altura": 1.93,
+      "altura": 2.13,
       "origem": "Petropia",
       "primeiraAparicao": "Clássico",
       "imagem": "Aliens/Diamante/Diamante.webp"
     },
     {
+      "nome": "Eco Eco",
+      "genero": ["Humanóide"],
+      "poder": ["Gritos sônicos"],
+      "cores": ["Branco", "Preto"],
+      "altura": 1.09,
+      "origem": "Sonorosia",
+      "primeiraAparicao": "FA",
+      "imagem": "Aliens/EcoEco/EcoEco.webp"
+    },
+    {
       "nome": "Enormossauro",
       "genero": ["Humanóide", "Dinossauro"],
-      "poder": ["Força"],
+      "poder": ["Tamanho", "Força"],
       "cores": ["Marrom", "Bege"],
-      "altura": 3.6,
+      "altura": 18.0,
       "origem": "Terradino",
       "primeiraAparicao": "FA",
       "imagem": "Aliens/Enormossauro/Enormossauro.webp"
@@ -74,27 +154,67 @@
       "genero": ["Fantasma"],
       "poder": ["Faseamento", "Invisibilidade"],
       "cores": ["Cinza"],
-      "altura": 1.85,
+      "altura": 1.83,
       "origem": "Anur Phaetos",
       "primeiraAparicao": "Clássico",
       "imagem": "Aliens/Fantasmatico/Fantasmatico.webp"
+    },
+    {
+      "nome": "Frankenstrike",
+      "genero": ["Humanóide"],
+      "poder": ["Eletricidade", "Força"],
+      "cores": ["Cinza", "Bege"],
+      "altura": 2.13,
+      "origem": "Anur Transyl",
+      "primeiraAparicao": "Clássico",
+      "imagem": "Aliens/Frankenstrike/Frankenstrike.webp"
+    },
+    {
+      "nome": "Gigante",
+      "genero": ["Humanóide"],
+      "poder": ["Tamanho", "Força"],
+      "cores": ["Branco", "Vermelho"],
+      "altura": 36.5,
+      "origem": "Tempestades Cósmicas",
+      "primeiraAparicao": "Clássico",
+      "imagem": "Aliens/Gigante/Gigante.webp"
+    },
+    {
+      "nome": "Gosma",
+      "genero": ["Amorfo"],
+      "poder": ["Metamorfose"],
+      "cores": ["Verde"],
+      "altura": 1.93,
+      "origem": "Viscosia",
+      "primeiraAparicao": "FA",
+      "imagem": "Aliens/Gosma/Gosma.webp"
+    },
+    {
+      "nome": "Gravattack",
+      "genero": ["Humanóide", "Rochoso"],
+      "poder": ["Gravidade"],
+      "cores": ["Marrom", "Bege", "Preto"],
+      "altura": 3.65,
+      "origem": "Keplorr",
+      "primeiraAparicao": "OV",
+      "imagem": "Aliens/Gravattack/Gravattack.webp"
     },
     {
       "nome": "Insectóide",
       "genero": ["Inseto"],
       "poder": ["Toxina"],
       "cores": ["Verde", "Preto"],
-      "altura": 1.4,
+      "altura": 1.34,
       "origem": "Tesslepido Terra",
       "primeiraAparicao": "Clássico",
       "imagem": "Aliens/Insectoide/Insectoide.webp"
     },
     {
       "nome": "Macaco-Aranha",
-      "genero": ["Macaco"],
+      "genero": ["Quadrúpede"],
       "poder": ["Força", "Teia"],
       "cores": ["Azul"],
-      "altura": 1.2,
+      "altura": 1.21,
       "origem": "Aranhascimmia",
       "primeiraAparicao": "FA",
       "imagem": "Aliens/MacacoAranha/MacacoSpider.webp"
@@ -110,31 +230,61 @@
       "imagem": "Aliens/MassaCinzenta/MassaCinzenta.webp"
     },
     {
+      "nome": "Mega Olhos",
+      "genero": ["Humanóide"],
+      "poder": ["Laser", "Ecolocalização"],
+      "cores": ["Amarelo", "Rosa", "Verde"],
+      "altura": 2.05,
+      "origem": "Sightra",
+      "primeiraAparicao": "Clássico",
+      "imagem": "Aliens/MegaOlhos/MegaOlhos.webp"
+    },
+    {
+      "nome": "O Pior",
+      "genero": ["Humanóide"],
+      "poder": ["Indestrutibilidade"],
+      "cores": ["Amarelo"],
+      "altura": 0.70,
+      "origem": "Atrocius 0",
+      "primeiraAparicao": "OV",
+      "imagem": "Aliens/OPior/OPior.webp"
+    },
+    {
       "nome": "Quatro-Braços",
       "genero": ["Humanóide"],
       "poder": ["Força"],
       "cores": ["Vermelho"],
-      "altura": 3.7,
+      "altura": 3.0,
       "origem": "Khoros",
       "primeiraAparicao": "Clássico",
       "imagem": "Aliens/QuatroBracos/quatrobracos.webp"
     },
     {
       "nome": "Ultra T",
-      "genero": ["Humanóide"],
-      "poder": ["Upgrade"],
+      "genero": ["Amorfo"],
+      "poder": ["Upgrade", "Metamorfose"],
       "cores": ["Verde", "Preto", "Branco"],
-      "altura": 1.95,
+      "altura": 1.83,
       "origem": "Galvan B",
       "primeiraAparicao": "Clássico",
       "imagem": "Aliens/UltraT/UltraT.webp"
+    },
+    {
+      "nome": "Walkatruta",
+      "genero": ["Aquático"],
+      "poder": ["Afinidade Aquática"],
+      "cores": ["Azul"],
+      "altura": 0.70,
+      "origem": "Gilli-Perambulous Promenade",
+      "primeiraAparicao": "OV",
+      "imagem": "Aliens/Wallcatruta/Wallcatruta.webp"
     },
     {
       "nome": "XLR8",
       "genero": ["Humanóide"],
       "poder": ["Velocidade"],
       "cores": ["Preto", "Azul"],
-      "altura": 1.5,
+      "altura": 1.52,
       "origem": "Kinet",
       "primeiraAparicao": "Clássico",
       "imagem": "Aliens/XLR8/XLR8.webp"
