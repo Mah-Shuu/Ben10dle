@@ -10,6 +10,16 @@
       "imagem": "Aliens/AlienX/AlienX.webp"
     },
     {
+      "nome": "Ameaça Aquática",
+      "genero": ["Humanóide", "Robótico"],
+      "poder": ["Afinidade Aquática", "Jato d'água"],
+      "cores": ["Preto", "Vermelho", "Cinza"],
+      "altura": 1.83,
+      "origem": "Kiusana",
+      "primeiraAparicao": "SA",
+      "imagem": "Aliens/AmeacaAquatica/AmeacaAquatica.webp"
+    },
+    {
       "nome": "Anfíbio",
       "genero": ["Humanóide", "Aquático"],
       "poder": ["Eletricidade"],
@@ -50,6 +60,26 @@
       "imagem": "Aliens/Arraia-a-Jato/Arraia-a-Jato.webp"
     },
     {
+      "nome": "Artrópode",
+      "genero": ["Crustáceo"],
+      "poder": ["Laser", "Voo"],
+      "cores": ["Laranja", "Preto"],
+      "altura": 1.98,
+      "origem": "Encephalonus IV",
+      "primeiraAparicao": "FA",
+      "imagem": "Aliens/Arraia-a-Jato/Arraia-a-Jato.webp"
+    },
+    {
+      "nome": "Astrodactilo",
+      "genero": ["Humanóide", "Alado"],
+      "poder": ["Laser", "Voo"],
+      "cores": ["Amarelo", "Vermelho", "Preto"],
+      "altura": 1.98,
+      "origem": "Aeropela",
+      "primeiraAparicao": "FA",
+      "imagem": "Aliens/Arraia-a-Jato/Arraia-a-Jato.webp"
+    },
+    {
       "nome": "Atômico",
       "genero": ["Humanóide", "Robótico"],
       "poder": ["Radiação", "Voo"],
@@ -70,7 +100,27 @@
       "imagem": "Aliens/Bala-de-Canhao/Bala-de-Canhao.webp"
     },
     {
+      "nome": "Besouro",
+      "genero": ["Amorfo"],
+      "poder": ["Tornar-se esfera"],
+      "cores": ["Branco", "Amarelo", "Preto"],
+      "altura": 2.0,
+      "origem": "Arburia",
+      "primeiraAparicao": "Clássico",
+      "imagem": "Aliens/Bala-de-Canhao/Bala-de-Canhao.webp"
+    },
+    {
       "nome": "Besta",
+      "genero": ["Quadrúpede"],
+      "poder": ["Sentidos sobre-humanos"],
+      "cores": ["Laranja"],
+      "altura": 1.4,
+      "origem": "Vulpin",
+      "primeiraAparicao": "Clássico",
+      "imagem": "Aliens/Besta/Besta.webp"
+    },
+    {
+      "nome": "Blitzwolfer",
       "genero": ["Quadrúpede"],
       "poder": ["Sentidos sobre-humanos"],
       "cores": ["Laranja"],
@@ -101,6 +151,36 @@
     },
     {
       "nome": "Cipó-Selvagem",
+      "genero": ["Humanóide", "Planta"],
+      "poder": ["Natureza"],
+      "cores": ["Verde"],
+      "altura": 2.2,
+      "origem": "Flors Verdance",
+      "primeiraAparicao": "Clássico",
+      "imagem": "Aliens/CipoSelvagem/Cipo.webp"
+    },
+    {
+      "nome": "Cocorocóide",
+      "genero": ["Humanóide", "Planta"],
+      "poder": ["Natureza"],
+      "cores": ["Verde"],
+      "altura": 2.2,
+      "origem": "Flors Verdance",
+      "primeiraAparicao": "Clássico",
+      "imagem": "Aliens/CipoSelvagem/Cipo.webp"
+    },
+    {
+      "nome": "Contra-Tempo",
+      "genero": ["Humanóide", "Planta"],
+      "poder": ["Natureza"],
+      "cores": ["Verde"],
+      "altura": 2.2,
+      "origem": "Flors Verdance",
+      "primeiraAparicao": "Clássico",
+      "imagem": "Aliens/CipoSelvagem/Cipo.webp"
+    },
+    {
+      "nome": "Crashhopper",
       "genero": ["Humanóide", "Planta"],
       "poder": ["Natureza"],
       "cores": ["Verde"],
@@ -150,6 +230,16 @@
       "imagem": "Aliens/Enormossauro/Enormossauro.webp"
     },
     {
+      "nome": "Escarabola",
+      "genero": ["Humanóide", "Dinossauro"],
+      "poder": ["Tamanho", "Força"],
+      "cores": ["Marrom", "Bege"],
+      "altura": 18.0,
+      "origem": "Terradino",
+      "primeiraAparicao": "FA",
+      "imagem": "Aliens/Enormossauro/Enormossauro.webp"
+    },
+    {
       "nome": "Fantasmático",
       "genero": ["Fantasma"],
       "poder": ["Faseamento", "Invisibilidade"],
@@ -160,7 +250,37 @@
       "imagem": "Aliens/Fantasmatico/Fantasmatico.webp"
     },
     {
+      "nome": "Feedback",
+      "genero": ["Fantasma"],
+      "poder": ["Faseamento", "Invisibilidade"],
+      "cores": ["Cinza"],
+      "altura": 1.83,
+      "origem": "Anur Phaetos",
+      "primeiraAparicao": "Clássico",
+      "imagem": "Aliens/Fantasmatico/Fantasmatico.webp"
+    },
+    {
+      "nome": "Fogo Fátuo",
+      "genero": ["Fantasma"],
+      "poder": ["Faseamento", "Invisibilidade"],
+      "cores": ["Cinza"],
+      "altura": 1.83,
+      "origem": "Anur Phaetos",
+      "primeiraAparicao": "Clássico",
+      "imagem": "Aliens/Fantasmatico/Fantasmatico.webp"
+    },
+    {
       "nome": "Frankenstrike",
+      "genero": ["Humanóide"],
+      "poder": ["Eletricidade", "Força"],
+      "cores": ["Cinza", "Bege"],
+      "altura": 2.13,
+      "origem": "Anur Transyl",
+      "primeiraAparicao": "Clássico",
+      "imagem": "Aliens/Frankenstrike/Frankenstrike.webp"
+    },
+    {
+      "nome": "Friagem",
       "genero": ["Humanóide"],
       "poder": ["Eletricidade", "Força"],
       "cores": ["Cinza", "Bege"],
@@ -191,6 +311,16 @@
     },
     {
       "nome": "Gravattack",
+      "genero": ["Humanóide", "Rochoso"],
+      "poder": ["Gravidade"],
+      "cores": ["Marrom", "Bege", "Preto"],
+      "altura": 3.65,
+      "origem": "Keplorr",
+      "primeiraAparicao": "OV",
+      "imagem": "Aliens/Gravattack/Gravattack.webp"
+    },
+    {
+      "nome": "Idem",
       "genero": ["Humanóide", "Rochoso"],
       "poder": ["Gravidade"],
       "cores": ["Marrom", "Bege", "Preto"],
@@ -240,7 +370,27 @@
       "imagem": "Aliens/MegaOlhos/MegaOlhos.webp"
     },
     {
+      "nome": "NRG",
+      "genero": ["Humanóide"],
+      "poder": ["Laser", "Ecolocalização"],
+      "cores": ["Amarelo", "Rosa", "Verde"],
+      "altura": 2.05,
+      "origem": "Sightra",
+      "primeiraAparicao": "Clássico",
+      "imagem": "Aliens/MegaOlhos/MegaOlhos.webp"
+    },
+    {
       "nome": "O Pior",
+      "genero": ["Humanóide"],
+      "poder": ["Indestrutibilidade"],
+      "cores": ["Amarelo"],
+      "altura": 0.70,
+      "origem": "Atrocius 0",
+      "primeiraAparicao": "OV",
+      "imagem": "Aliens/OPior/OPior.webp"
+    },
+    {
+      "nome": "Podrão",
       "genero": ["Humanóide"],
       "poder": ["Indestrutibilidade"],
       "cores": ["Amarelo"],
@@ -260,7 +410,57 @@
       "imagem": "Aliens/QuatroBracos/quatrobracos.webp"
     },
     {
+      "nome": "Rath",
+      "genero": ["Humanóide"],
+      "poder": ["Força"],
+      "cores": ["Vermelho"],
+      "altura": 3.0,
+      "origem": "Khoros",
+      "primeiraAparicao": "Clássico",
+      "imagem": "Aliens/QuatroBracos/quatrobracos.webp"
+    },
+    {
+      "nome": "Shocksquatch",
+      "genero": ["Humanóide"],
+      "poder": ["Força"],
+      "cores": ["Vermelho"],
+      "altura": 3.0,
+      "origem": "Khoros",
+      "primeiraAparicao": "Clássico",
+      "imagem": "Aliens/QuatroBracos/quatrobracos.webp"
+    },
+    {
+      "nome": "Snare-Oh",
+      "genero": ["Humanóide"],
+      "poder": ["Força"],
+      "cores": ["Vermelho"],
+      "altura": 3.0,
+      "origem": "Khoros",
+      "primeiraAparicao": "Clássico",
+      "imagem": "Aliens/QuatroBracos/quatrobracos.webp"
+    },
+    {
+      "nome": "Tartagira",
+      "genero": ["Humanóide"],
+      "poder": ["Força"],
+      "cores": ["Vermelho"],
+      "altura": 3.0,
+      "origem": "Khoros",
+      "primeiraAparicao": "Clássico",
+      "imagem": "Aliens/QuatroBracos/quatrobracos.webp"
+    },
+    {
       "nome": "Ultra T",
+      "genero": ["Amorfo"],
+      "poder": ["Upgrade", "Metamorfose"],
+      "cores": ["Verde", "Preto", "Branco"],
+      "altura": 1.83,
+      "origem": "Galvan B",
+      "primeiraAparicao": "Clássico",
+      "imagem": "Aliens/UltraT/UltraT.webp"
+    },
+    {
+      "nome": "Vompiro",
       "genero": ["Amorfo"],
       "poder": ["Upgrade", "Metamorfose"],
       "cores": ["Verde", "Preto", "Branco"],
