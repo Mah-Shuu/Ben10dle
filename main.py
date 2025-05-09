@@ -21,6 +21,29 @@ class Main(QMainWindow):
         self.ui.lineEdit.setCompleter(self.completer)
 
         self.ui.pushButton_omnitrix.clicked.connect(self.advinhar)
+        self.ui.pushButton_reset.clicked.connect(self.selectNewAlien)
+
+        # Cores
+        self.cor_certo = """
+        QLabel{
+            background-color: #78E750;
+            border: 5px solid #000000;
+        }"""
+        self.cor_parcial = """
+        QLabel{
+            background-color: #FFD633;
+            border: 5px solid #000000;
+        }"""
+        self.cor_errado = """
+        QLabel{
+            background-color: #FF2D2D;
+            border: 5px solid #000000;
+        }"""
+        self.cor_padrao = """
+        QLabel{
+	        background-color: #D9D9D9;
+	        border: 5px solid #000000;
+        }"""
 
     def carregarAliens(self):
         try:
@@ -31,6 +54,25 @@ class Main(QMainWindow):
 
     def definirAlien(self):
         return random.choice(self.aliens)
+    
+    def selectNewAlien(self):
+        self.alienAlvo = self.definirAlien()
+        print(self.alienAlvo)
+        self.ui.label_Genero.setStyleSheet(self.cor_padrao)
+        self.ui.label_Poder.setStyleSheet(self.cor_padrao)
+        self.ui.label_Cores.setStyleSheet(self.cor_padrao)
+        self.ui.label_Altura.setStyleSheet(self.cor_padrao)
+        self.ui.label_Origem.setStyleSheet(self.cor_padrao)
+        self.ui.label_PA.setStyleSheet(self.cor_padrao)
+        
+        self.ui.label_Altura.clear()
+        self.ui.label_Alien.clear()
+        self.ui.label_Genero_text.clear()
+        self.ui.label_Poder_text.clear()
+        self.ui.label_Cores_text.clear()
+        self.ui.label_Altura_text.clear()
+        self.ui.label_Origem_text.clear()
+        self.ui.label_PA_text.clear()
     
     def getNomes(self):
         listaNomes = []
@@ -44,22 +86,7 @@ class Main(QMainWindow):
         nomeInput = self.ui.lineEdit.text().strip()
         print(self.alienAlvo)
 
-        # Cores
-        self.cor_certo = """
-        QLabel{
-            background-color: #78E750;
-            border: 4px solid #000000;
-        }"""
-        self.cor_parcial = """
-        QLabel{
-            background-color: #FFD633;
-            border: 4px solid #000000;
-        }"""
-        self.cor_errado = """
-        QLabel{
-            background-color: #FF2D2D;
-            border: 4px solid #000000;
-        }"""
+        
 
         self.certo_errado(nomeInput)
 
