@@ -22,7 +22,8 @@ class Main(QMainWindow):
 
         self.ui.pushButton_omnitrix.clicked.connect(self.advinhar)
         self.ui.pushButton_reset.clicked.connect(self.selectNewAlien)
-
+        self.ui.lineEdit.returnPressed.connect(self.advinhar)
+        
         # Cores
         self.cor_certo = """
         QLabel{
@@ -86,10 +87,10 @@ class Main(QMainWindow):
         nomeInput = self.ui.lineEdit.text().strip()
         print(self.alienAlvo)
 
-        
-
         self.certo_errado(nomeInput)
 
+        self.ui.lineEdit.clear()
+    
     def certo_errado(self, nome):
         if nome in self.nomeAliens:
             for i in self.aliens:
