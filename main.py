@@ -2,6 +2,8 @@ import sys
 import json
 import random
 from PyQt5.QtWidgets import QApplication, QMainWindow, QFileDialog, QAction, QPushButton, QCompleter, QMessageBox
+from PyQt5.QtMultimedia import QMediaPlayer, QMediaContent
+from PyQt5.QtCore import QUrl
 from PyQt5.QtGui import QPixmap
 from Ben10dle import Ui_MainWindow
 
@@ -19,6 +21,17 @@ class Main(QMainWindow):
         self.completer = QCompleter(self.nomeAliens)
         self.completer.setCaseSensitivity(False)
         self.ui.lineEdit.setCompleter(self.completer)
+
+        self.player = QMediaPlayer()
+
+        url = QUrl.fromLocalFile("music/classic-ben-10-opening.mp3")
+
+        self.player.setMedia(QMediaContent(url))
+
+        self.player.setVolume(30)
+
+        self.player.play()
+ 
 
         self.ui.pushButton_omnitrix.clicked.connect(self.advinhar)
         self.ui.pushButton_reset.clicked.connect(self.selectNewAlien)
